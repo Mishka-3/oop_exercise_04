@@ -14,8 +14,8 @@ public:
     ~List();
 
     void DelAll();
-    void Del(int pos);
-
+    //void Del(int pos);
+    void Del(size_t index);
     void Insert(int pos);
     void AddHead(Fiveangle& fiveangle);
 
